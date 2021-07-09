@@ -19,7 +19,7 @@ class Help {
   }
 
   getAvailableDocs() {
-    return '# Available Documentation:\n'.concat(
+    return 'Available Documentation:\n'.concat(
       this.getCommands(this.helpDocs)
         .map((key) => `* ${key}`)
         .join('\n'),
@@ -37,15 +37,18 @@ class Help {
 
   help() {
     if (!this.helpQuery) {
-      const availableDocs = marked(this.getAvailableDocs());
-      return `What ShellJS command do you want to learn more about?\n${availableDocs}\nRun help(COMMAND) to get documentation on a command.`;
+      const availableDocs = this.getAvailableDocs();
+      const question =
+        '# What ShellJS command do you want to learn more about?';
+      const moreInfo = 'Run help(COMMAND) to get documentation on a command.';
+      return marked(`${question}\n${availableDocs}\n${moreInfo}`);
     }
 
     const docEntry = this.helpDocs[this.helpQuery];
     if (!docEntry) {
       return 'No help documentation available for that command.';
     }
-    return marked(docEntry);
+    return marked(`# ${this.helpQuery}\n${docEntry}`);
   }
 }
 
