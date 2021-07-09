@@ -13,7 +13,9 @@
 
 - Get information on a ShellJS command: `help(COMMAND)`
 
-COMMAND is a string representing a ShellJS command, or the string 'options' to see available documentation entries.
+`COMMAND` is an optional string representing a ShellJS command.
+
+- See available ShellJS documentation entries with no arguments passed: `help()`
 
 ## Examples
 
