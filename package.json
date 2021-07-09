@@ -10,6 +10,8 @@
     "format": "prettier --write .",
     "updatedocs": "node ./scripts/generateHelpDocs.js",
     "example": "node ./example",
+    "test": "mocha ./tests/*.js",
+    "coverage": "nyc npm run test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
