@@ -9,6 +9,7 @@
   "scripts": {
     "format": "prettier --write .",
     "updatedocs": "node ./scripts/generateHelpDocs.js",
+    "example": "node ./example",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
