@@ -1,7 +1,7 @@
 {
   "name": "shelljs-plugin-help",
   "version": "1.0.0",
-  "description": "A help manual plugin for shelljs",
+  "description": "A help manual plugin for ShellJS",
   "main": "src/index.js",
   "files": [
     "src"
