@@ -1,5 +1,6 @@
 # shelljs-plugin-help
 
+[![Actions Status](https://github.com/JessieFrance/shelljs-plugin-help/workflows/Build%20and%20Test/badge.svg)](https://github.com/JessieFrance/shelljs-plugin-help/actions)
 [![shelljs-plugin](https://img.shields.io/badge/shelljs-plugin-brightgreen.svg?style=flat-square)](https://github.com/shelljs/shelljs/wiki/Using-ShellJS-Plugins)
 
 > A [ShellJS](https://github.com/shelljs/shelljs) help documentation plugin for getting quick documentation on ShellJS commands.
