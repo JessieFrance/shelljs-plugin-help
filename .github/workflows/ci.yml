@@ -22,8 +22,8 @@ jobs:
         run: npm ci
       - name: Run Linting      
         run: npm run lint
-      - name: Run Test with Coverage
-        run: npm run coverage
+      - name: Run Tests and Report Coverage
+        run: npm run report-coverage
 
 
 
