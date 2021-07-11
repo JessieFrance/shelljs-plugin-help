@@ -1,8 +1,9 @@
 const fs = require('fs');
+const path = require('path');
 
 const loadFile = (filename) => {
   try {
-    return fs.readFileSync(filename, 'utf8');
+    return fs.readFileSync(path.resolve(__dirname, filename), 'utf8');
   } catch (error) {
     throw new Error(
       `Error loading shelljs-plugin-help documentation: ${error.message}`,
