@@ -11,7 +11,8 @@
     "updatedocs": "node ./scripts/generateHelpDocs.js",
     "example": "node ./example",
     "test": "mocha ./tests/*.js",
-    "coverage": "nyc npm run test",
+    "coverage": "nyc --reporter=clover --reporter=lcov npm run test",
+    "report-coverage": "npm run coverage && codecov",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "prepare": "husky install",
@@ -29,6 +30,7 @@
   "homepage": "https://github.com/JessieFrance/shelljs-plugin-help",
   "devDependencies": {
     "chai": "^4.3.4",
+    "codecov": "^3.8.2",
     "eslint": "^7.29.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",

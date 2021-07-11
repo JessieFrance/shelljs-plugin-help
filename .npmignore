@@ -1,4 +1,5 @@
 node_modules
+coverage
 scripts
 tests
 example

@@ -1,6 +1,7 @@
 # Project
 node_modules
 .nyc_output/
+coverage/
 logs/
 *.log
 npm-debug.log*
