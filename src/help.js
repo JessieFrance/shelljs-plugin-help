@@ -9,8 +9,8 @@ marked.setOptions({
 class Help {
   constructor({ helpQuery }) {
     this.helpQuery = helpQuery;
-    this.shellJSdocs = './src/help.json';
-    this.pluginDocs = 'README.md';
+    this.shellJSdocs = './help.json';
+    this.pluginDocs = '../README.md';
     this.helpDocs = this.getHelpDocs();
   }
 
