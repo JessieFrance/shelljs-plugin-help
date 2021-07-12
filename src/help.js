@@ -41,7 +41,7 @@ class Help {
       const question =
         '# What ShellJS command do you want to learn more about?';
       const moreInfo = 'Run help(COMMAND) to get documentation on a command.';
-      return marked(`${question}\n${availableDocs}\n${moreInfo}`);
+      return marked(`${question}\n${availableDocs}\n\n${moreInfo}`);
     }
 
     const docEntry = this.helpDocs[this.helpQuery];
