@@ -1,5 +1,6 @@
 # shelljs-plugin-help
 
+![npm](https://img.shields.io/npm/v/shelljs-plugin-help?style=flat-square)
 [![Actions Status](https://github.com/JessieFrance/shelljs-plugin-help/workflows/Build%20and%20Test/badge.svg)](https://github.com/JessieFrance/shelljs-plugin-help/actions)
 [![codecov](https://codecov.io/gh/JessieFrance/shelljs-plugin-help/branch/main/graph/badge.svg)](https://codecov.io/gh/JessieFrance/shelljs-plugin-help)
 [![GitHub license](https://img.shields.io/github/license/JessieFrance/shelljs-plugin-help?style=flat-square)](https://github.com/JessieFrance/shelljs-plugin-help/blob/main/LICENSE)
