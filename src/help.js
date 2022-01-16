@@ -1,4 +1,4 @@
-const marked = require('marked');
+const { marked } = require('marked');
 const TerminalRenderer = require('marked-terminal');
 const { getJSON, getMarkdown } = require('./utils');
 
