@@ -2,7 +2,7 @@ name: Build and Test
 
 on:
   push:
-    branches: # Run actions when code is committed to main branc
+    branches: # Run actions when code is committed to main branch
       - main
   pull_request:
     branches: # Run actions when a PR is pushed based on main branch
@@ -11,13 +11,26 @@ on:
 jobs:
   ci:
     runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version:
+	  - 10
+	  - 11
+	  - 12
+	  - 13
+	  - 14
+	  - 15
+	  - 16
+
     steps:
-      - name: Checkout Code    
+      - name: Checkout Code
         uses: actions/checkout@v2
-      - name: Setup Node
+      - name: Setup Node Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: ${{ matrix.node-version }}
       - name: Install Dependencies
         run: npm ci
       - name: Run Linting      
