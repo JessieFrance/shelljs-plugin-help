@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4 (2022-03-30)
+
+- Bump package-lock.json for newer minimist package
+
 ## 1.0.3 (2022-01-16)
 
 - Expand CI pipeline to node versions 12, 14, 16
