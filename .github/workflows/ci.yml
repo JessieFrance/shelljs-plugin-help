@@ -30,8 +30,8 @@ jobs:
         run: npm run lint
       - name: Run Tests and Report Coverage
         run: npm run report-coverage
-
-
+      - name: Check that Example Runs
+        run: npm run example | grep "What ShellJS command do you want to learn more about?"
 
 
 
