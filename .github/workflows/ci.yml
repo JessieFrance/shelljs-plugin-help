@@ -28,10 +28,14 @@ jobs:
         run: npm ci
       - name: Run Linting      
         run: npm run lint
-      - name: Run Tests and Report Coverage
-        run: npm run report-coverage
+      - name: Run Tests that will Report Coverage
+        run: npm run coverage
       - name: Check that Example Runs
         run: npm run example | grep "What ShellJS command do you want to learn more about?"
+      - name: Report Test Coverage
+        uses: codecov/codecov-action@v2
+        with:
+          fail_ci_if_error: true
 
 
 
