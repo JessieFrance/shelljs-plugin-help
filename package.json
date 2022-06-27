@@ -52,6 +52,6 @@
     "marked-terminal": "^4.2.0"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=v16.15.1"
   }
 }
