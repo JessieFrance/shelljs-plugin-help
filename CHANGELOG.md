@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 (2022-11-26)
+
+- Bump package-lock.json for npm-minimatch vulnerability #54
+- General package updates
+
 ## 1.0.4 (2022-03-30)
 
 - Bump package-lock.json for newer minimist package
