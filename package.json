@@ -38,7 +38,7 @@
     "lint-staged": "13.1.0",
     "mocha": "10.1.0",
     "nyc": "15.1.0",
-    "prettier": "2.8.0",
+    "prettier": "2.8.1",
     "shelljs": "0.8.5"
   },
   "lint-staged": {
