@@ -48,7 +48,7 @@
     "shelljs": "^0.8.5"
   },
   "dependencies": {
-    "marked": "^4.3.0",
+    "marked": "^9.1.6",
     "marked-terminal": "^4.2.0"
   },
   "engines": {
