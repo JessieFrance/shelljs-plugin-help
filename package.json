@@ -49,7 +49,7 @@
   },
   "dependencies": {
     "marked": "^4.3.0",
-    "marked-terminal": "^4.2.0"
+    "marked-terminal": "^6.2.0"
   },
   "engines": {
     "node": ">=v12.22.12"
