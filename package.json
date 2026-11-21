@@ -39,13 +39,13 @@
     "mocha": "10.2.0",
     "nyc": "15.1.0",
     "prettier": "2.8.8",
-    "shelljs": "0.8.5"
+    "shelljs": "0.10.0"
   },
   "lint-staged": {
     "*.{js,json,md}": "prettier --write"
   },
   "peerDependencies": {
-    "shelljs": "^0.8.5"
+    "shelljs": "^0.10.0"
   },
   "dependencies": {
     "marked": "^4.3.0",
